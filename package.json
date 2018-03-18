@@ -1,0 +1,24 @@
+{
+  "name": "easy-server",
+  "version": "1.0.1",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-nunjucks": "^3.1.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "clear": "gulp clean"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "require-dir": "^1.0.0"
+  }
+}
