@@ -5,7 +5,7 @@ const browserify = require("gulp-browserify");
 
 gulp.task("commons", function() {
   return gulp
-  .src(cfg.src.img + "/*.{jpg,png}")
+  .src(cfg.src.img + "/*.{jpg,png,ico}")
   .pipe(gulp.dest(cfg.dest.img));
 
 });
